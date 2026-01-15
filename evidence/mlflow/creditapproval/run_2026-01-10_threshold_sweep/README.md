@@ -1,18 +1,18 @@
-﻿# MLflow Evidence Pack — Credit Approval (Baseline)
+﻿# MLflow Evidence Pack - Credit Approval (Baseline)
 
 This folder contains **exported MLflow artefacts** for a single baseline run.
-Purpose: provide an **audit-ready evidence snapshot** (performance + fairness signals + decision note).
+Purpose: provide an **audit-ready evidence snapshot** (performance , fairness signals , decision note).
 
 ## What this run covers
 - **Use case:** Credit approval (demo)
 - **Model:** Baseline Logistic Regression
-- **Evaluation style:** Threshold-based decisioning + group metrics
+- **Evaluation style:** Threshold-based decisioning and group metrics
 - **Group / proxy attribute:** gender (female / male) for disparity checks
 
 > NOTE: The authoritative results and decision for this run are in the assurance summary artefact below.
 
 ## Artefacts in this folder
-- ssurance_summary_baseline_credit.md
+- Assurance_summary_baseline_credit.md
   - Plain-language “audit summary” (threshold used, performance metrics, fairness deltas, and a PASS / CONDITIONAL_PASS / FAIL style outcome).
 - confusion_matrix_baseline_credit.png
   - Confusion matrix for quick review of errors (FP / FN).
